@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: #f9e2c7;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="http://drive.google.com/uc?export=view&id=1Hi8XT6O72jn9nZP0gX0WXjdfQ70povYn" alt="logo cup-queic" width="150px">
+    <h1>Your information</h1>
+    <form action="order.js">
+        <label for="Name">Name and last name</label><br>
+        <input type="text" id="Name" name="Name"><br><br>
+
+        <label for="Address">Address</label><br>
+        <input type="text" id="Address" name="Address"><br><br>
+
+        <label for="Phone">Phone number</label><br>
+        <input type="tel" id="Phone" name="Address"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="Description">Cake description</label><br>
+        <input type="text" id="Description" name="Description"><br><br>
+
+
+
+        <h2>Please select your flavors</h2>
+        <input type="checkbox" id="flavor1" name="flavor1" value="Pineapple">
+        <label for="flavor1">Pineapple</label><br>
+        <input type="checkbox" id="flavor2" name="flavor2" value="Chocolate">
+        <label for="flavor2">Chocolate</label><br>
+        <input type="checkbox" id="flavor3" name="flavor3" value="Banana">
+        <label for="flavor3">Banana</label><br>
+        <input type="checkbox" id="flavor4" name="flavor4" value="Lemon">
+        <label for="flavor4">Lemon</label><br>
+        <input type="checkbox" id="flavor5" name="flavor5" value="Strawberry">
+        <label for="flavor5">Strawberry</label><br>
+        <input type="checkbox" id="flavor6" name="flavor6" value="Carrot">
+        <label for="flavor5">Carrot</label><br>
+
+        <h2>Please select your Icing</h2>
+        <input list="icing">
+        <datalist id="icing">
+            <option value="Cream Icing">Cream Icing</option>
+            <option value="Fondant">Fondant</option>
+        </datalist>
+
+        <h2>Please select your Toppings</h2>
+        <input type="checkbox" id="toppong1" name="topping1" value="Chocolate">
+        <label for="topping1">Chocolate</label><br>
+        <input type="checkbox" id="toppong2" name="topping2" value="Fruits">
+        <label for="topping2">Fruits</label><br>
+        <input type="checkbox" id="toppong3" name="topping3" value="Coconut Jelly">
+        <label for="topping3">Coconut Jelly</label><br>
+        <input type="checkbox" id="toppong4" name="topping4" value="Peanuts and almonds">
+        <label for="topping4">Peanuts and almonds</label><br><br>
+
+        <a href="./Progress.html">
+            <input type="button" value="Place the order">
+        </a><br>
+
+        <hr>
+        <footer>
+            <p>Contact us</p>
+            <h6>Phone number: XXXXXXXXXX<br>Address: Lincoln Av. 234<br>cupqueic@bakery.mx</h6>
+        </footer>
+    </form>
+</body>
