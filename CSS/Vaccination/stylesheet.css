@@ -1,0 +1,221 @@
+body { background-color: white; }
+
+            .home {
+                position: relative;
+                top: 65px;
+                left: 150px; 
+                color:#3555D3; 
+                font-family: 'Helvetica', sans-serif; 
+                font-weight: bolder; font-size: 50px;
+                text-decoration: none;
+                 }
+            .hoaxbuster {
+			text-align:center;
+			text-decoration: none;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            display:inline-block;
+			color: #FFF;
+			background: #2E4ECC;
+			padding: 40px 60px;
+			white-space: nowrap;
+	    	border-radius: 10px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position:relative;
+            top: 50px;
+            left: 70%;
+            font-size: 15px;
+                    }
+            .hoaxbuster_text {
+			text-align:center;
+			text-decoration: none;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            display:inline-block;
+			color: #FFF;
+			background: #2E4ECC;
+			padding: 40px 60px;
+			white-space: nowrap;
+	    	border-radius: 10px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position:relative;
+            top: 0px;
+            left: 150px;
+            font-size: 15px;
+                    }
+            .wrapper{
+                display: flex;
+            }
+            .wrapper .topl, .wrapper .topr{
+                width: 20%;
+                height: 10vh;
+            }
+            .wrapper .topc{
+                width: 50%;
+                height: 10vh;
+            }
+            .wrapper .topl{
+                background-color: white;
+            }
+            .wrapper .topc{
+                background-color: white;
+            }
+            .wrapper .topr{
+                background-color: white;
+            }
+            .wrapper .left, .wrapper .right{
+                width: 50%;
+                height: 100vh;
+            }
+            .wrapper .left{
+                background-color: white;
+            }
+            .wrapper .right{
+                background-color: white;
+            }
+            .wrapper .left_small, .wrapper .right_small{
+                width: 50%;
+                height: 50vh;
+            }
+            .wrapper .left_small{
+                background-color: white;
+            }
+            .wrapper .right_small{
+                background-color: white;
+            }
+            .wrapper .l1, .wrapper .l2, .wrapper .r1, .wrapper .r2{
+                width: 25%;
+                height: 30vh;
+                margin: 2%;
+            }
+            .wrapper .l1{
+                background-color: white;
+            }
+            .wrapper .l2{
+                background-color: white;
+            }
+            .wrapper .r1{
+                background-color: white;
+            }
+            .wrapper .r2{
+                background-color: white;
+            }
+            .wrapper .l2_f, .wrapper .r1_f, .wrapper .r2_f{
+                width: 25%;
+                height: 30vh;
+                margin: 2%;
+            }
+            .wrapper .l1_f{
+                width: 85%;
+                height: 30vh;
+                margin: 2%;
+            }
+            .wrapper .l1{
+                background-color: #EEF3FF;
+            }
+            .wrapper .l2{
+                background-color:#EEF3FF;
+            }
+            .wrapper .r1{
+                background-color: #EEF3FF;
+            }
+            .wrapper .r2{
+                background-color: #EEF3FF;
+            }
+            .bestselect{
+                position: relative;
+                width: 100%;
+                left: 100px;
+                top: 100px;
+                font-weight: bold; 
+                color:#014e97; 
+                font-family: Arial, Helvetica, sans-seri; 
+                font-size: 40px; 
+                    }
+            .div {
+                position: relative;
+                left: 200px;
+                top: 100px;
+                height: 100vh;
+                justify-content: center;
+            }        
+            .img {
+                max-width: 100%;
+                max-height: 100%;
+                justify-content: center;
+            }
+            .subtitles {               
+                position: relative;
+                width: 100%;
+                left: 100px;
+                top: 100px;
+                font-weight: bold; 
+                color:#014e97; 
+                font-family: Arial, Helvetica, sans-seri; 
+                font-size: 70px; 
+                    }
+            .subtitles_right {               
+                position: relative;
+                width: 100%;
+                left: 0px;
+                top: 100px;
+                font-weight: bold; 
+                color:#014e97; 
+                font-family: Arial, Helvetica, sans-seri; 
+                font-size: 70px; 
+                    }
+            .subtitles_box {               
+                margin: auto;
+                width: 80%;
+                text-align: center;
+                font-weight: bold; 
+                color:#014e97; 
+                font-family: Arial, Helvetica, sans-seri; 
+                padding: 10px;
+                font-size:40px;
+            }
+
+            p.text {
+                position: relative;
+                width: 100%;
+                left: 100px;
+                top: 100px;
+                color:rgb(21, 83, 112); 
+                font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                font-size: 30px;
+                line-height: 1.5;
+                    }
+            p.text_right {
+                position: relative;
+                width: 100%;
+                left: 0px;
+                top: 100px;
+                color:rgb(21, 83, 112); 
+                font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                font-size: 30px;
+                line-height: 1.5;
+                    }
+             p.text_box {
+                margin: auto;
+                width: 80%;
+                text-align: center;
+                font-weight: bold; 
+                color:#014e97; 
+                font-family: Arial, Helvetica, sans-seri; 
+                padding: 10px;
+                font-size:20px;
+                    }
+            .menu {
+                position: relative;
+                top:55px ;
+                left: 250px;
+				font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 25px;
+                text-decoration: none;
+			}
+            footer{
+                background-position: 50% 25vh; 
+                background-color: #EEF3FF;
+                background-size: 110% ;
+                background-repeat: repeat-x;
+                min-height: 50vh;
+    
+}
