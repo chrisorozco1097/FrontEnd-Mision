@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./pokedex.css">
+    
+</head>
+<body>
+    <div class="container_1">
+        <div class="header">
+            <div class="topic_head">
+                <h1>Pokedex</h1>
+            </div>
+            <div class="search">
+                <div class="inputs">
+                    <input type="text" placeholder="Name or ID" id="pokeName" name="pokeName">
+                    <button onclick="fetchPokemon()">
+                        <img class="buttons" src="./img/pokeball.png" alt="button_pokeball">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="name">
+        <span id="name"> Pokemon's Name </span>
+    </div>
+    <div class="wrapper">
+        <div class="left">
+            <h2 class="titles">Regular pokemon</h2>
+        </div>
+        <div class="left">
+            <h2 class="titles">Shiny pokemon</h2>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="left">
+            <div class="screen">
+                <div class="pokemon">
+                    <img src="./img/fondo.png" alt="Pokemon" id="pokeImg" width="150px">
+                </div>
+            </div>
+        </div>
+        <div class="left">
+            <div class="screen">
+                <div class="pokemon">
+                    <img src="./img/fondo.png" alt="Pokemon" id="pokeImg_right" width="150px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="left">
+            <div class="wrapper">
+                <div class="left">
+                    <div class="stats">
+                        <h2>Hp</h2>
+                    </div>
+                    <div class="stats">
+                        <h2>Attack</h2>
+                    </div>
+                    <div class="stats">
+                        <h2>Defense</h2>
+                    </div>
+                    <div class="stats">
+                        <h2>Special-attack</h2>
+                    </div>
+                    <div class="stats">
+                        <h2>Special-defense</h2><br>
+                    </div>
+                    <div class="stats">
+                        <h2>Speed</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="stats_1">
+                        <h2 id="hp">Value</h2>
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="attack"> Value</h2>
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="defense">Value</h2>
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="special-attack">Value</h2>
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="special-defense">Value</h2>  
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="speed">Value</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="wrapper">
+                <div class="left">
+                    <div class="stats">
+                        <h2>Pokemon ID</h2>
+                    </div>
+                    <div class="stats">
+                        <h2>Generation</h2>
+                    </div>
+                    <div class="stats">
+                        <h2>Height</h2>
+                    </div>
+                    <div class="stats">
+                        <h2>Weight</h2>
+                    </div>
+                    <div class="stats">
+                        <h2>Type 1</h2><br>
+                    </div>
+                    <div class="stats">
+                        <h2>Type 2</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="stats_1">
+                        <h2 id="pokemID">Value</h2>
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="generation">Value</h2>
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="pokeHeight">Value</h2>
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="pokeWeight">Value</h2>
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="type1">Value</h2>  
+                    </div>
+                    
+                    <div class="stats_1">
+                        <h2 id="type2"> Value </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div>
+        <p>
+            <h2>Christian Orozco</h2><br> 
+            <h3>chris.orozco@tec.mx</h3>
+        </p>
+        
+    </div>
+    
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
